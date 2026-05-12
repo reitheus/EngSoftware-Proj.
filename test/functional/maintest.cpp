@@ -9,10 +9,10 @@ void testefat() {
 	assert(calcularFatorial(1) == 1);
 	assert(calcularFatorial(5) == 120);
 	assert(calcularFatorial(-1) == -1);
+    cout << "Todos os testes passaram!" << endl;
  }
 
 int main() {
     testefat();
-    cout << "Todos os testes passaram!" << endl;
     return 0;
 }
